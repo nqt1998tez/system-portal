@@ -1,8 +1,8 @@
+import HomeComponent from "./features/Home/components/HomeComponent";
+import './assets/css/style.css';
 function App() {
   return (
-    <div className="App">
-      <h1>Đã chạy</h1>
-    </div>
+    <HomeComponent />
   );
 }
 
